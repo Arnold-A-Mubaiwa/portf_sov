@@ -44,7 +44,7 @@ function Home() {
           <div className="section-title">
             <h2 className="text-cap">About</h2>
             <p>
-              I am a Bachelors Of Sciences in Information Technology graduate
+              I am a Bachelor Of Science in Information Technology graduate,
               living in Cape Town. I graduated in the year 2021 from Richfield.
               Below are the qualifications that I have obtained, including the
               programming languages and databases I understand.
@@ -60,7 +60,7 @@ function Home() {
                 <h3 className="">Certificates</h3>
                 <div className="row">
                   <div className="col-sm cert m-2 p-2">
-                    <h4>BSC IT</h4>
+                    <h4>Bachelor Of Science in Information Technology</h4>
                     <p>
                       Graduated: August 2021
                       <br />
@@ -68,9 +68,9 @@ function Home() {
                     </p>
                   </div>
                   <div className="col-sm m-2 cert p-2 ">
-                    <h4>DIT</h4>
+                    <h4>Diploma in Information Technology</h4>
                     <p>
-                      Graduated: March 2021
+                      Graduated: March 2020
                       <br />
                       Richfield
                     </p>
