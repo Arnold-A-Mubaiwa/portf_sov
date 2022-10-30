@@ -128,7 +128,7 @@ function Home() {
         </div>
 
         <div className="col-sm p-5" data-aos="fade-right">
-          <img src={web_sec} className="img-fluid img-n" alt="bg image" />
+          <img src={web_sec} className="img-fluid img-n" alt="bg " />
         </div>
       </div>
     </div>
