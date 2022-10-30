@@ -52,3 +52,6 @@ In this folder we keep all the pictures that we need to use
 
 Contains the favicons
 
+# Deployed Version
+
+[Arnold_Mubaiwa](https://anotida.netlify.app/)
