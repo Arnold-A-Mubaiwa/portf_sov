@@ -60,7 +60,7 @@ function Home() {
                 <h3 className="">Certificates</h3>
                 <div className="row">
                   <div className="col-sm cert m-2 p-2">
-                    <h4>Bachelor Of Science in Information Technology</h4>
+                    <h4>BSc IT</h4>
                     <p>
                       Graduated: August 2021
                       <br />
@@ -68,7 +68,7 @@ function Home() {
                     </p>
                   </div>
                   <div className="col-sm m-2 cert p-2 ">
-                    <h4>Diploma in Information Technology</h4>
+                    <h4>DIT</h4>
                     <p>
                       Graduated: March 2020
                       <br />
