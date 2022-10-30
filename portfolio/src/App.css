@@ -94,3 +94,18 @@ body {
 .img-w{
   max-width: 40%;
 }
+.img-n{
+  color: darkcyan;
+}
+
+.nv-color{
+  background-color: darkslategray;
+  color: white;
+}
+.nv-color a{
+  color: white;
+}
+.txt-sec{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
