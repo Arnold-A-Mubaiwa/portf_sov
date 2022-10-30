@@ -96,7 +96,11 @@ body {
 }
 .img-n{
   color: darkcyan;
+  height: 500px;
+  width: auto;
 }
+
+
 
 .nv-color{
   background-color: darkslategray;
@@ -119,5 +123,29 @@ body {
 .h_icons{
   height: 40px;
   width: 40px;
-  color: rgb(255, 254, 254);
+  color: rgb(254, 255, 255);
+}
+.cert{
+  background-color: darkcyan;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.text-cap{
+  text-transform: uppercase;
+  /* text-decoration: underline; */
+  color: darkcyan;
+}
+
+.nav-link :hover{
+  color: darkcyan;
+}
+
+.nav-item :hover{
+  background-color: #fff;
+  color: darkcyan;
+  padding-left: 20px;
+}
+.navbar-brand :hover{
+  color: #fff;
 }

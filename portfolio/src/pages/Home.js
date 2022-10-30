@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaPhp } from "react-icons/fa";
-import wind from "../assets/wind.png";
+import wind from "../assets/app-development.png";
+import web_sec from "../assets/web-security.png"
 import { FaPython, FaJava, FaWordpress, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiJavascript, DiDjango } from "react-icons/di";
@@ -8,7 +9,7 @@ import { SiCsharp, SiMysql, SiPostgresql, SiSqlite } from "react-icons/si";
 
 function Home() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" >
       <div className="mt-5 pt-5 d-flex h-100 text-center text-white bg-dark ">
         <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
           <main className="px-3">
@@ -23,10 +24,10 @@ function Home() {
                 <h3>Graduate Programme</h3>
               </p>
               <div className="social-links mt-3 text-center">
-                <a href="https://github.com/Arnold-A-Mubaiwa">
+                <a target="_blank" href="https://github.com/Arnold-A-Mubaiwa">
                   <FaGithub className="p-2 h_icons" />
                 </a>
-                <a href="https://www.linkedin.com/in/arnold-anotida-mubaiwa-75aa1816a/">
+                <a target="_blank" href="https://www.linkedin.com/in/arnold-anotida-mubaiwa-75aa1816a/">
                   <FaLinkedin className="p-2 h_icons" />
                 </a>
               </div>
@@ -35,10 +36,10 @@ function Home() {
         </div>
       </div>
 
-      <section className=" p-5 txt-sec">
+      <section className=" p-5 txt-sec" id="about">
         <div className="container">
           <div className="section-title">
-            <h2>About</h2>
+            <h2 className="text-cap">About</h2>
             <p>
               I am a Bachelors Of Sciences in Information Technology graduate
               living in Cape Town. I graduated in the year 2021 from Richfield.
@@ -48,14 +49,14 @@ function Home() {
           </div>
 
           <div className="row">
-            <div className="col-lg-4 " data-aos="fade-right">
+            <div className="col-lg-4 pt-5" data-aos="fade-right">
               <img src={wind} className="img-fluid img-n" alt="" />
             </div>
             <div className="col-lg-8 p-4 pt-lg-0 content" data-aos="fade-left">
               <div className="p-3">
-                <h3>Certificates</h3>
+                <h3 className="">Certificates</h3>
                 <div className="row">
-                  <div className="col">
+                  <div className="col-sm cert m-2 p-2">
                     <h4>BSC IT</h4>
                     <p>
                       Graduated: August 2021
@@ -63,7 +64,7 @@ function Home() {
                       Richfield
                     </p>
                   </div>
-                  <div className="col ">
+                  <div className="col-sm m-2 cert p-2 ">
                     <h4>DIT</h4>
                     <p>
                       Graduated: March 2021
@@ -74,7 +75,7 @@ function Home() {
                 </div>
               </div>
               <div className="pb-3">
-                <h3>Programming Languages and Frameworks</h3>
+                <h3 className="">Programming Languages and Frameworks</h3>
                 <FaJava className="icon_s p-2" alt=""></FaJava>
                 <FaPython className="icon_s p-2" alt="" />
                 <SiCsharp className="icon_s p-2" alt="" />
@@ -86,7 +87,7 @@ function Home() {
                 <FaBootstrap className="icon_s p-2" alt="" />
               </div>
               <div className="p-3">
-                <h3>Databases</h3>
+                <h3 className="">Databases</h3>
                 <SiMysql className="icon_s p-2" alt="" />
                 <SiPostgresql className="icon_s p-2" alt="" />
                 <SiSqlite className="icon_s p-2" alt="" />
@@ -96,11 +97,36 @@ function Home() {
           </div>
         </div>
       </section>
-      <div>
-        <h2 className="text-toupper">
-        Why you want to be a developer at SovTech.
-        </h2>
+      <div className="row txt-sec" id="sovtech">
+      <h2 className="text-cap">
+            Why do I want to be a developer at SovTech.
+          </h2>
+        <div className="col-sm-8 ml-5 p-5 text-justify">
+          
+          <p className="text-justify">
+            This programme will be a learning and growth opportunity for me as I
+            will be entering the industry. It will enable me to learn from those
+            with industry experience in development.
+          </p>
+          <p className="text-left">
+            It will enable me to develop my skill, applying my current knowledge
+            in building world-class applications under experienced software
+            developers.
+          </p>
+          <p className="text-justify">
+            Moreover, SovTech represents innovation, change, efficiency and
+            positivity, which all represents growth. I want to be part of this
+            as I strongly believe in growth because growth is one superpower
+            everyone can obtain.
+          </p>
+          <h3 className="pt-3">That's why I want to be part of this world-class company!</h3>
         </div>
+       
+        <div className="col-sm p-5" data-aos="fade-right">
+              <img src={web_sec} className="img-fluid img-n" alt="bg image" />
+            </div>
+        
+      </div>
     </div>
   );
 }
