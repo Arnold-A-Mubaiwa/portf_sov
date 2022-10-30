@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaPhp } from "react-icons/fa";
-import wind from "../assets/app-development.png";
-import web_sec from "../assets/web-security.png"
+import app_dev from "../assets/app-development.png";
+import web_sec from "../assets/web-security.png";
 import { FaPython, FaJava, FaWordpress, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiJavascript, DiDjango } from "react-icons/di";
@@ -9,7 +9,7 @@ import { SiCsharp, SiMysql, SiPostgresql, SiSqlite } from "react-icons/si";
 
 function Home() {
   return (
-    <div className="container-fluid" >
+    <div className="container-fluid">
       <div className="mt-5 pt-5 d-flex h-100 text-center text-white bg-dark ">
         <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
           <main className="px-3">
@@ -27,7 +27,10 @@ function Home() {
                 <a target="_blank" href="https://github.com/Arnold-A-Mubaiwa">
                   <FaGithub className="p-2 h_icons" />
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/arnold-anotida-mubaiwa-75aa1816a/">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/arnold-anotida-mubaiwa-75aa1816a/"
+                >
                   <FaLinkedin className="p-2 h_icons" />
                 </a>
               </div>
@@ -43,14 +46,14 @@ function Home() {
             <p>
               I am a Bachelors Of Sciences in Information Technology graduate
               living in Cape Town. I graduated in the year 2021 from Richfield.
-              Below are my social media accounts where you can view my work and
-              achievements.
+              Below are the qualifications that I have obtained, including the
+              programming languages and databases I understand.
             </p>
           </div>
 
           <div className="row">
             <div className="col-lg-4 pt-5" data-aos="fade-right">
-              <img src={wind} className="img-fluid img-n" alt="" />
+              <img src={app_dev} className="img-fluid img-n" alt="" />
             </div>
             <div className="col-lg-8 p-4 pt-lg-0 content" data-aos="fade-left">
               <div className="p-3">
@@ -98,11 +101,10 @@ function Home() {
         </div>
       </section>
       <div className="row txt-sec" id="sovtech">
-      <h2 className="text-cap">
-            Why do I want to be a developer at SovTech.
-          </h2>
+        <h2 className="text-cap">
+          Why do I want to be a developer at SovTech.
+        </h2>
         <div className="col-sm-8 ml-5 p-5 text-justify">
-          
           <p className="text-justify">
             This programme will be a learning and growth opportunity for me as I
             will be entering the industry. It will enable me to learn from those
@@ -119,13 +121,15 @@ function Home() {
             as I strongly believe in growth because growth is one superpower
             everyone can obtain.
           </p>
-          <h3 className="pt-3">That's why I want to be part of this world-class company!</h3>
+          <h3 className="pt-3">
+            That's why I want to be part of this world-class company. Thank You!
+          </h3>
+          
         </div>
-       
+
         <div className="col-sm p-5" data-aos="fade-right">
-              <img src={web_sec} className="img-fluid img-n" alt="bg image" />
-            </div>
-        
+          <img src={web_sec} className="img-fluid img-n" alt="bg image" />
+        </div>
       </div>
     </div>
   );
