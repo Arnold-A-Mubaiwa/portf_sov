@@ -12,11 +12,11 @@ import "../node_modules/bootstrap/dist/js/bootstrap.js"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home />}></Route>
+          <Route  path='/' element={<Home />}></Route>
         </Routes>
         <Footer/>
       </Router>
