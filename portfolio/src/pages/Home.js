@@ -2,9 +2,10 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaPhp } from "react-icons/fa";
 import app_dev from "../assets/app-development.png";
 import web_sec from "../assets/web-security.png";
-import { FaPython, FaJava, FaWordpress, FaBootstrap } from "react-icons/fa";
+import { FaPython, FaJava, FaWordpress, FaBootstrap, FaPhone } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { DiJavascript, DiDjango } from "react-icons/di";
+import { DiJavascript, DiDjango, DiMailchimp } from "react-icons/di";
+import {AiOutlineMail} from "react-icons/ai"
 import { SiCsharp, SiMysql, SiPostgresql, SiSqlite } from "react-icons/si";
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
             <div className="m-5">
               <h1>Anotida Arnold Mubaiwa</h1>
               <p className="lead">
-                <h3>Graduate Programme</h3>
+                <h3>BSc In Information Technology, WEB DEVELOPER, SYSTEMS DEVELOPER</h3>
               </p>
               <div className="social-links mt-3 text-center">
                 <a target="_blank" href="https://github.com/Arnold-A-Mubaiwa">
@@ -100,29 +101,30 @@ function Home() {
           </div>
         </div>
       </section>
-      <div className="row txt-sec" id="sovtech">
+      <div className="row txt-sec" id="projects">
         <h2 className="text-cap">
-          Why do I want to be a developer at SovTech.
+          Previous Projects.
         </h2>
-        <div className="col-sm-8 ml-5 p-5 text-justify">
-          <p className="text-justify">
-            This programme will be a learning and growth opportunity for me as I
-            will be entering the industry. It will enable me to learn from those
-            with industry experience in development.
+        <div className="col-sm-8 ml-5 p-5 ">
+          <h4>WEBSITE DEVELOPMENT</h4>
+          <p className="">
+           <a href="https://debthub.co.za">DEBT HUB</a><span> - Debt counseling company based in Cape Town</span><br/>
+           <a href="https://durnold-tech-solution.co.za">DURNOLD TECH</a><span> - Digital marketing startup that specialise in web development and graphic design</span><br/>
+           <a href="https://aichealthcare.co.za">AIC HEALTHCARE</a><span> - A doctor surgery based </span><br/>
           </p>
+          <h4>SOFTWARE DEVELOPMENT</h4>
           <p className="text-left">
-            It will enable me to develop my skill, applying my current knowledge
-            in building world-class applications under experienced software
-            developers.
+            <a href="https://github.com/Arnold-A-Mubaiwa/Final-Project">RICHFIELD FINAL YEAR PROJECT</a><span> - A school attendance rregister</span><br/>
+           <a href="https://github.com/Arnold-A-Mubaiwa/School-System">STUDENT DETAILS</a><span> - Desktop application developed using VB.Net</span><br/>
+           <a href="https://github.com/Arnold-A-Mubaiwa/Email_sender">EMAIL SENDER</a><span> - Automative email sender</span><br/>
+           <a href="https://github.com/Arnold-A-Mubaiwa/weather">WEATHER APP</a><span> - Let's you check the ccurrent weather of your current town</span>
           </p>
-          <p className="text-justify">
-            Moreover, SovTech represents innovation, change, efficiency and
-            positivity, which all represents growth. I want to be part of this
-            as I strongly believe in growth because growth is one superpower
-            everyone can obtain.
+          <p className="">
+            You can reach me on <a href="tel:+27642681132"><FaPhone className="icon_s p-2" alt=""></FaPhone></a> or 
+            <a href="mail:arnoldmubaiwa99@gmail.com"><AiOutlineMail className="icon_s p-2" alt=""></AiOutlineMail></a>
           </p>
           <h3 className="pt-3">
-            That's why I want to be part of this world-class company. Thank You!
+             Thank You!
           </h3>
           
         </div>

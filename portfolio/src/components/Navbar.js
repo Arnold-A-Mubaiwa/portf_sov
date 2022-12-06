@@ -32,8 +32,8 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link  rounded" href="#sovtech">
-                  why SovTech
+                <a className="nav-link  rounded" href="#projects">
+                  Projects
                 </a>
               </li>
             </ul>
